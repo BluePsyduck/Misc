@@ -3,6 +3,7 @@
  *
  * @author Marcel <marcel@mania-community.de>
  * @license http://opensource.org/licenses/GPL-2.0 GPL v2
+ * @see https://github.com/BluePsyduck/Misc/wiki/ManiaScript-Snowstorm
  */
 #Include "MathLib" as MathLib
 
