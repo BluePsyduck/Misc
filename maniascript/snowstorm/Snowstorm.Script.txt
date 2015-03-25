@@ -160,6 +160,9 @@ Void Snowstorm_Initialize(CMlFrame _Container) {
         _Snowstorm_LastTime = Now;
     }
 }
+Void Snowstorm_Initialize() {
+    Snowstorm_Initialize(Page.GetFirstChild("snowstorm") as CMlFrame);
+}
 
 /**
  * Animates the Snowstorm, letting all Snowflakes redraw.
